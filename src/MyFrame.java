@@ -7,7 +7,7 @@ import java.util.concurrent.Flow;
 
 public class MyFrame extends Frame {
 
-    private Panel ballPanel;
+    private BallPanel ballPanel;
     private Panel buttonPanel;
     private Button addBall;
     private Button shakePanel;
@@ -18,7 +18,7 @@ public class MyFrame extends Frame {
 
     public MyFrame() {
 
-        this.ballPanel = new Panel();
+        this.ballPanel = new BallPanel();
         this.addBall = new Button("Add Ball");
         this.shakePanel = new Button("Shake Ball");
         this.buttonPanel = new Panel();
