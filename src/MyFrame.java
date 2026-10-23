@@ -20,6 +20,7 @@ public class MyFrame extends Frame {
 
         this.ballPanel = new BallPanel();
         this.addBall = new Button("Add Ball");
+        addBall.addActionListener(ballPanel);
         this.shakePanel = new Button("Shake Ball");
         this.buttonPanel = new Panel();
 
